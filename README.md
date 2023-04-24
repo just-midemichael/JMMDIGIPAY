@@ -27,7 +27,7 @@
 			<p>DigiPay is Personal Project, an ideal fintechplatform built to catar quality services, such as loan, flexible payment option, savings, investment product and lot more.</p>
 			<p>This platform is design to create more user engagement, great user experience and interative user interface. 
 			</td>
-			<td>Understood more about fintech industry and how they integrate best technology stack to provide quality financial services to end users</td>
+			<td>Understood more about fintech industry and how they integrate best technology stack to provide quality financial services to end users.</td>
 		</tr>
 	</tbody>
 </table>
