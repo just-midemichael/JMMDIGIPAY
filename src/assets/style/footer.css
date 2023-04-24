@@ -1,0 +1,299 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    bottom: 0;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 6px rgba(128, 128, 128, 0.177);
+    color: #6b6969;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 14;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sections-wrapper {
+    width: 100%;
+    max-width: 1500px;
+    padding: 2.5% 2%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.footer-section-1 {
+    height: 40%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-logo-asset {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    padding: 5px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.brand-logo-asset .logo {
+    color: blue !important;
+}
+
+.brand-social-media {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    padding: 5px 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-section-2 {
+    height: 60%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer-section-2 .boxx {
+    display: flex;
+    flex-direction: column;
+    min-width: 25%;
+    height: 200px;
+    box-sizing: border-box;
+    text-align: start;
+    padding: 10px 5%;
+}
+
+.box-title {
+    font-size: 0.8rem;
+    color: #151515;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.box-link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin: 5px 0;
+    cursor: default;
+    text-transform: capitalize;
+    padding: 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.box-link:hover {
+    color: #0ca1cb;
+}
+
+.box-link:hover .double-right-arrow {
+    display: inline;
+}
+
+.copy-right-container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 5%;
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+.copy-right-container .copy-right-content {
+    padding: 0 10px;
+    margin: 0;
+}
+
+.copy-right-container .title {
+    color: #151515;
+    font-weight: 600;
+}
+
+.copy-right-container .description {
+    text-align: start !important;
+    color: #6b6969;
+    font-weight: 600;
+}
+
+.footer-section-3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    text-align: start;
+    padding: 10px;
+    gap: 15%;
+}
+
+.footer-section-3 .address-container {
+    box-sizing: border-box;
+    min-width: 25%;
+    margin: 20px 0 0 0;
+    font-size: 0.7rem;
+    overflow: hidden;
+}
+
+.footer-section-3 .address-container a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+.footer-section-3 .address-container a:hover {
+    color: #0ca1cb;
+}
+
+.footer-section-3 .address-container p {
+    margin: 0;
+    font-weight: 600;
+}
+
+.footer-section-3 .address-container .office-address {
+    margin: 5px 0 0 0;
+}
+
+.footer-developer-link {
+    display: grid;
+    justify-content: center;
+    text-decoration: none;
+    background-color: black;
+    width: 100%;
+    cursor: default;
+}
+
+.footer-container pre {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 0 5px;
+    color: grey;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.footer-container pre:hover {
+    color: #ae0b57;
+}
+
+@media (max-width: 1000px) {
+    footer {
+        background-size: 30%;
+    }
+
+    .footer-section-1 {
+        flex-direction: row;
+    }
+
+    .brand-logo-asset {
+        justify-content: flex-start;
+    }
+
+    .brand-logo-asset {
+        font-size: 1.8rem;
+    }
+
+    .footer-section-2 .boxx {
+        min-width: 33.33%;
+        height: 150px;
+    }
+
+    .box-title {
+        font-size: 0.8rem;
+    }
+
+    .box-link {
+        font-size: 0.75rem;
+    }
+}
+@media (max-width: 750px) {
+    footer {
+        font-size: 0.75rem;
+        background-size: 35%;
+    }
+
+    .footer-section-1 {
+        flex-direction: column;
+    }
+
+    .brand-logo-asset {
+        font-size: 1.6rem;
+    }
+
+    .footer-section-2 .boxx {
+        min-width: 50%;
+    }
+
+    .box-title {
+        font-size: 0.75rem;
+    }
+
+    .box-link {
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 350px) {
+    footer {
+        font-size: 0.7rem;
+        background-size: 40%;
+    }
+
+    .footer-section-3 {
+        flex-direction: column;
+    }
+
+    .footer-section-3 .address-container {
+        min-width: 100%;
+    }
+
+    .brand-logo-asset {
+        font-size: 1.4rem;
+    }
+
+    .footer-section-2 .boxx {
+        min-width: 100%;
+    }
+
+    .box-title {
+        font-size: 0.7rem;
+    }
+
+    .box-link {
+        font-size: 0.65rem;
+    }
+}

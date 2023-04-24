@@ -1,0 +1,391 @@
+header {
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.177);
+}
+
+header .button {
+    background-color: blue !important;
+    color: white !important;
+}
+
+header .button:hover {
+    background-color: #0808bc !important;
+}
+
+.logo {
+    color: blue;
+}
+
+.box {
+    background-color: black;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    min-height: 90vh;
+    min-height: 90dvh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5% 5%;
+    overflow: hidden;
+}
+
+.section-1 .content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.text-focal-point, .image-focal-point {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100%;
+    padding: 10px;
+}
+
+.section-1 .text-focal-point, .section-1 .image-focal-point {
+    animation: openAnim 1000ms ease 100ms 1 forwards;
+}
+
+@keyframes openAnim {
+    0% {
+        opacity: 0;
+        transform: translateY(5%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.text-focal-point {
+    text-align: start;
+    width: 80%;
+}
+
+.text-focal-point .core-value {
+    color: blue;
+    text-align: inherit;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.summary-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: black;
+    padding: 5px;
+    margin: 5% 0 0 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.summary-container .summary {
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.get-card {
+    display: flex;
+    place-items: start;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 1% 0 0 0;
+}
+
+.get-card .button {
+    font-weight: bold !important;
+    font-size: 1rem !important;
+    background-color: blue !important;
+    color: white !important;
+    min-height: 45px !important;
+    height: fit-content !important;
+    width: 150px !important;
+}
+
+.get-card .button:hover {
+    background-color: #0808bc !important;
+}
+
+.join-digipay-body .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-height: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    gap: 20px;
+}
+
+.join-digipay-body button {
+    background-color: #09b2e1 !important;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+}
+
+.join-digipay-body button:hover {
+    background-color: #0ca1cb !important;
+}
+
+.join-digipay-body button.google {
+    background-image: url(../icon/google-play.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.join-digipay-body button.apple {
+    background-image: url(../icon/apple-store.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.qr-code-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    margin: 10px 0;
+}
+
+.qr-code {
+    background-image: url(../image/digipay-qr-code.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.image-focal-point {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+.image-focal-point .hero-image {
+    transition: 600ms ease-in-out;
+}
+
+.join-digipay-body .image-focal-point:hover .hero-image {
+    transition: 600ms ease-in-out;
+    transform: rotate(0deg) translateY(0px);
+    box-sizing: border-box;
+}
+
+.image-focal-point .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    box-sizing: border-box;
+    border-radius: 0;
+    background-color: #413f3f;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: imageAnim 2000ms ease-in-out 500ms infinite alternate-reverse;
+    transform: rotate(22.5deg);
+    overflow: hidden;
+    box-shadow: none;
+}
+
+@keyframes imageAnim {
+    0% {
+        background-color: #676464;
+    }
+    100% {
+        background-color: #413f3f;
+    }
+}
+@media (max-width: 1000px) {
+    .section-1 .content-container {
+        flex-direction: column;
+        padding: 10% 10px;
+        width: 100%;
+    }
+
+    .text-focal-point {
+        text-align: center;
+        width: 100%;
+    }
+
+    .text-focal-point .core-value {
+        font-size: 2.4rem;
+    }
+
+    .summary-container {
+        font-size: 1.1rem;
+        justify-content: center;
+    }
+
+    .join-digipay-body .button-container {
+        justify-content: center;
+    }
+
+    .qr-code-container {
+        display: none;
+        justify-content: center;
+    }
+
+    .image-focal-point .image-container {
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width: 750px) {
+    .content-container {
+        flex-direction: column;
+    }
+
+    .text-focal-point {
+        text-align: center;
+    }
+
+    .text-focal-point .core-value {
+        font-size: 2rem;
+    }
+
+    .summary-container {
+        font-size: 1rem;
+    }
+
+    .image-focal-point .hero-image {
+        width: 350px;
+        height: 350px;
+    }
+
+    .image-focal-point .image-container {
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width: 350px) {
+    .section-1 {
+        padding: 20px 0;
+    }
+
+    .content-container {
+        flex-direction: column;
+    }
+
+    .text-focal-point {
+        text-align: center;
+    }
+
+    .text-focal-point .core-value {
+        font-size: 1.8rem;
+    }
+
+    .image-focal-point .hero-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .image-focal-point .image-container {
+        width: 200px;
+        height: 200px;
+    }
+}
+.join-digipay-body .section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: fit-content;
+    width: 100%;
+    background-color: white;
+    padding: 0 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.section-2 .box-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 40vh;
+    min-height: 40dvh;
+    height: fit-content;
+    width: 100%;
+    padding: 10px;
+    gap: 5px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+    .section-2 .box-wrapper {
+        flex-direction: row;
+    }
+}
+@media (max-width: 750px) {
+    .section-2 .box-wrapper {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+/*****Animation on Scroll*****/
+.aos-left {
+    opacity: 0;
+    transform: translateX(-400%);
+    transition: 400ms ease;
+}
+
+.aos-right {
+    opacity: 0;
+    transform: translateX(400%);
+    transition: 400ms ease;
+}
+
+.aos-top {
+    opacity: 0;
+    transform: translateY(-10%);
+    transition: 400ms ease;
+}
+
+.aos-bottom {
+    opacity: 0;
+    transform: translateY(10%);
+    transition: 400ms ease;
+}
+
+.aos-fade {
+    opacity: 0;
+    transition: 600ms ease;
+}
+
+.aos-show {
+    transform: translateX(0);
+    transform: translateY(0);
+    opacity: 1;
+}

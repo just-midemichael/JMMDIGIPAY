@@ -1,0 +1,28 @@
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.logo .link {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+@media (max-width: 1000px) {
+    .logo {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 750px) {
+    .logo {
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 350px) {
+    .logo {
+        font-size: 1.2rem;
+    }
+}

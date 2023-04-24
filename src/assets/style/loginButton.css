@@ -1,0 +1,16 @@
+button {
+    background-color: navy !important;
+    font-weight: 400 !important;
+    padding: 10px 20px !important;
+    box-sizing: border-box !important;
+    font-size: 0.9rem !important;
+    outline: none !important;
+    border: none !important;
+    font-weight: 600 !important;
+    min-height: 35px !important;
+}
+
+button:hover {
+    background-color: #06069a !important;
+    border: none !important;
+}

@@ -1,0 +1,149 @@
+.menu-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    display: none;
+    box-sizing: border-box;
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;
+    transform: translateX(-100%);
+    transition: 600ms ease-in-out;
+    z-index: 14;
+}
+
+.blur-background {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.menu-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 400px;
+    width: 100%;
+    min-height: 100%;
+    background-color: white;
+    color: black;
+    padding: 20px 2.5%;
+    box-sizing: border-box;
+}
+
+.menu-background nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    box-sizing: content-box;
+    padding: 5px 0;
+    transform: translateX(-100%);
+    transition: 1000ms ease-in-out 400ms;
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.menu-background .link-button {
+    display: flex;
+    align-items: center;
+}
+
+.menu-background .nav-link {
+    text-align: left;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.menu-background .nav-sub-link-container {
+    position: relative;
+    display: block;
+    padding: 0;
+    background-color: inherit;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    height: 0px;
+    overflow: hidden;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.menu-background .nav-sub-link {
+    font-weight: 400;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.menu-background .nav-sub-link:hover {
+    color: black;
+}
+
+.drop-down-arrow {
+    border-radius: 2px;
+    padding: 1px 5px;
+    box-sizing: border-box;
+    color: blue;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.hamburger-login-container {
+    position: static;
+    padding: 5px 20px;
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+.hamburger-login-container .button {
+    background-color: blue !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+.hamburger-login-container .button:hover {
+    background-color: #0808bc !important;
+}
+
+@media (max-width: 1000px) {
+    .menu-wrapper {
+        display: flex;
+        padding: 65px 0 0 0;
+    }
+}
+@media (max-width: 750px) {
+    .menu-wrapper {
+        display: flex;
+        padding: 55px 0 0 0;
+    }
+
+    .menu-background .nav-link {
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 350px) {
+    .menu-wrapper {
+        display: flex;
+        padding: 45px 0 0 0;
+    }
+
+    .menu-background .nav-link {
+        font-size: 1rem;
+    }
+}

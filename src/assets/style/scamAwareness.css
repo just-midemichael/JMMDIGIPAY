@@ -1,0 +1,525 @@
+header {
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.177);
+}
+
+header .button {
+    background-color: blue !important;
+    color: white !important;
+}
+
+header .button:hover {
+    background-color: #0808bc !important;
+}
+
+.logo {
+    color: blue;
+}
+
+.box {
+    background-color: black;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    min-height: 90vh;
+    min-height: 90dvh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5% 5%;
+    overflow: hidden;
+}
+
+.section-1 .content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.text-focal-point, .image-focal-point {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100%;
+    padding: 10px;
+}
+
+.section-1 .text-focal-point, .section-1 .image-focal-point {
+    animation: openAnim 1000ms ease 100ms 1 forwards;
+}
+
+@keyframes openAnim {
+    0% {
+        opacity: 0;
+        transform: translateY(5%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.text-focal-point {
+    text-align: start;
+    width: 80%;
+}
+
+.text-focal-point .core-value {
+    color: blue;
+    text-align: inherit;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+.summary-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: black;
+    padding: 5px;
+    margin: 5% 0 0 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.summary-container .summary {
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.image-focal-point {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+.image-focal-point .hero-image {
+    transition: 600ms ease-in-out;
+}
+
+.scam-awareness-body .image-focal-point:hover .hero-image {
+    transition: 600ms ease-in-out;
+    transform: rotate(0deg) translateY(0px);
+    box-sizing: border-box;
+}
+
+.image-focal-point .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    box-sizing: border-box;
+    border-radius: 0;
+    background-color: #413f3f;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: imageAnim 2000ms ease-in-out 500ms infinite alternate-reverse;
+    transform: rotate(22.5deg);
+    overflow: hidden;
+    box-shadow: none;
+}
+
+@keyframes imageAnim {
+    0% {
+        background-color: #676464;
+    }
+    100% {
+        background-color: #413f3f;
+    }
+}
+@media (max-width: 1000px) {
+    .section-1 .content-container {
+        flex-direction: column;
+        padding: 10% 10px;
+        width: 100%;
+    }
+
+    .text-focal-point {
+        text-align: center;
+        width: 100%;
+    }
+
+    .text-focal-point .core-value {
+        font-size: 2.4rem;
+    }
+
+    .summary-container {
+        font-size: 1.1rem;
+        justify-content: center;
+    }
+
+    .image-focal-point .image-container {
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width: 750px) {
+    .content-container {
+        flex-direction: column;
+    }
+
+    .text-focal-point {
+        text-align: center;
+    }
+
+    .text-focal-point .core-value {
+        font-size: 2rem;
+    }
+
+    .summary-container {
+        font-size: 1rem;
+    }
+
+    .image-focal-point .hero-image {
+        width: 350px;
+        height: 350px;
+    }
+
+    .image-focal-point .image-container {
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width: 350px) {
+    .section-1 {
+        padding: 20px 0;
+    }
+
+    .content-container {
+        flex-direction: column;
+    }
+
+    .text-focal-point {
+        text-align: center;
+    }
+
+    .text-focal-point .core-value {
+        font-size: 1.8rem;
+    }
+
+    .image-focal-point .hero-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .image-focal-point .image-container {
+        width: 200px;
+        height: 200px;
+    }
+}
+.scam-awareness-body .section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    min-height: 90dvh;
+    width: 100%;
+    background-color: white;
+    padding: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.scam-awareness-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 60vh;
+    min-height: 60dvh;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 7%;
+}
+
+.section-2 .title {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.section-2 .text-focal-point, .image-focal-point {
+    min-height: 100%;
+    background-color: white;
+}
+
+.section-2 .image-focal-point {
+    place-items: start;
+}
+
+.section-2 .image-focal-point:nth-child(even) {
+    place-items: end;
+}
+
+.section-2 .image-container {
+    transform: translate(0px);
+    background-image: none;
+}
+
+.section-2 .image {
+    width: 100%;
+    height: 100%;
+}
+
+.section-2 .features-content-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 80%;
+    max-width: 900px;
+    padding: 10px;
+    margin: 7% 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.features-content-container .title {
+    text-align: start;
+    font-size: 2.2rem;
+    width: 100%;
+    font-weight: 700;
+    max-width: 500px;
+    color: blue;
+    overflow: hidden;
+}
+
+.features-content-container .text-description {
+    box-sizing: border-box;
+    padding: 10px 0;
+    font-family: inherit;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: #6b6969;
+    max-width: 500px;
+    text-align: start;
+    padding: 5px;
+}
+
+.features-content-container .text-description li {
+    list-style-type: square;
+    color: black;
+}
+
+.scam-information {
+    width: 100%;
+    max-width: 750px;
+    min-height: 60vh;
+    min-height: 60dvh;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.information-title {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: blue;
+}
+
+.information-sub-title {
+    text-align: start;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: blue;
+    margin: 20px 0;
+}
+
+.scam-information p {
+    text-align: start;
+    color: #6b6969;
+}
+
+.scam-information li {
+    list-style: armenian;
+    list-style-type: decimal;
+    text-align: start;
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+
+.section-2 .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: fit-content;
+    width: 100%;
+    max-width: 1000px;
+    height: fit-content;
+    min-height: 300px;
+    border-radius: 15px;
+    gap: 10px;
+    padding: 5%;
+    box-sizing: border-box;
+    background-color: #151515;
+    box-shadow: 3px -3px 10px rgba(128, 128, 128, 0.273);
+    background-image: url(../image//download-app-1.png);
+    background-position: bottom right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.section-2 .content-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #09b2e1;
+    padding: 10px;
+}
+
+.section-2 .content-description {
+    font-size: 1rem;
+    font-weight: 600;
+    max-width: 400px;
+    color: white;
+    padding: 10px;
+    text-align: start;
+}
+
+.section-2 button {
+    background-color: #ae0b57 !important;
+    margin-left: 10px;
+}
+
+.section-2 button:hover {
+    background-color: #a20a51 !important;
+}
+
+@media (max-width: 1000px) {
+    .features-content-container .title {
+        text-align: center;
+    }
+
+    .information-title {
+        font-size: 1.8rem;
+    }
+
+    .information-sub-title {
+        font-size: 1.4rem;
+    }
+
+    .scam-information p {
+        font-size: 0.95rem;
+    }
+
+    .scam-information li {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 750px) {
+    .scam-awareness-container {
+        padding: 0;
+    }
+
+    .information-title {
+        font-size: 1.6rem;
+    }
+
+    .information-sub-title {
+        font-size: 1.2rem;
+    }
+
+    .scam-information p {
+        font-size: 0.9rem;
+    }
+
+    .scam-information li {
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 600px) {
+    .section-2 .content-container {
+        background-image: none;
+        align-items: center;
+    }
+
+    .section-2 .content-description {
+        text-align: center;
+    }
+}
+@media (max-width: 350px) {
+    .section-2 .features-content-container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .section-2 {
+        padding: 5% 0;
+    }
+
+    .information-title {
+        font-size: 1.4rem;
+        text-align: start;
+    }
+
+    .information-sub-title {
+        font-size: 1.2rem;
+    }
+
+    .scam-information p {
+        font-size: 0.9rem;
+    }
+
+    .scam-information li {
+        font-size: 1rem;
+    }
+}
+/*****Animation on Scroll*****/
+.aos-left {
+    opacity: 0;
+    transform: translateX(-400%);
+    transition: 400ms ease;
+}
+
+.aos-right {
+    opacity: 0;
+    transform: translateX(400%);
+    transition: 400ms ease;
+}
+
+.aos-top {
+    opacity: 0;
+    transform: translateY(-10%);
+    transition: 400ms ease;
+}
+
+.aos-bottom {
+    opacity: 0;
+    transform: translateY(10%);
+    transition: 400ms ease;
+}
+
+.aos-fade {
+    opacity: 0;
+    transition: 600ms ease;
+}
+
+.aos-show {
+    transform: translateX(0);
+    transform: translateY(0);
+    opacity: 1;
+}

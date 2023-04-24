@@ -1,0 +1,31 @@
+//Color
+$logoColor-0: white;
+$logoColor-1: rgb(9, 178, 225);
+$logoColor-2: rgb(174, 11, 87);
+
+.logo {
+    color: $logoColor-0;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.logo .link {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+@media (max-width: 1000px) {
+    .logo {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 750px) {
+    .logo {
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 350px) {
+    .logo {
+        font-size: 1.2rem;
+    }
+}

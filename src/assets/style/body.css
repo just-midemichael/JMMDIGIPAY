@@ -1,0 +1,45 @@
+.body-container {
+    transition: 500ms ease-in-out;
+    width: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    min-height: 100vh;
+    min-height: 100dvh;
+}
+
+/*****Animation on Scroll*****/
+.aos-left {
+    opacity: 0;
+    transform: translateX(-400%);
+    transition: 400ms ease;
+}
+
+.aos-right {
+    opacity: 0;
+    transform: translateX(400%);
+    transition: 400ms ease;
+}
+
+.aos-top {
+    opacity: 0;
+    transform: translateY(-5%);
+    transition: 600ms ease;
+}
+
+.aos-bottom {
+    opacity: 0;
+    transform: translateY(5%);
+    transition: 600ms ease;
+}
+
+.aos-fade {
+    opacity: 0;
+    transition: 600ms ease;
+}
+
+.aos-show {
+    transform: translateX(0);
+    transform: translateY(0);
+    opacity: 1;
+}

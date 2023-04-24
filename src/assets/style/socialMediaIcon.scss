@@ -1,0 +1,86 @@
+//Color
+$bgColor: rgb(107, 105, 105);
+$bgHoverColor: rgb(12, 161, 203);
+$textColor: white;
+
+
+.social-media-icon-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 5px;
+}
+.social-media-icon-wrapper a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $bgColor;
+    width: 90px;
+    max-width: 90px;
+    min-height: 30px;
+    // border: 2px solid blue;
+    box-sizing: border-box;
+    margin: 0 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: $textColor;
+    font-size: 0.7rem;
+}
+.social-media-icon-wrapper a:hover {
+    background-color: $bgHoverColor;
+    color: $textColor;
+}
+.social-media-icon {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+@media (max-width: 1000px) {
+    .social-media-icon-wrapper {
+        justify-content: flex-start;
+    }
+    .social-media-icon-wrapper a {
+        font-size: 0.65rem;
+        width: 90%;
+    }
+    .social-media-icon {
+        width: 17.5px;
+        height: 17.5px;
+    }
+}
+@media (max-width: 750px) {
+    .social-media-icon-wrapper {
+        justify-content: center;
+    }
+    .social-media-icon-wrapper a {
+        width: 30px;
+        margin: 0 5px;
+    }
+    .social-media-icon-wrapper .name {
+        display: none;
+    }
+    .social-media-icon {
+        width: 15px;
+        height: 15px;
+    }
+}
+@media (max-width: 350px) {
+    .social-media-icon-wrapper {
+        justify-content: center;
+    }
+    .social-media-icon-wrapper a {
+        width: 25px;
+    }
+    .social-media-icon-wrapper .name {
+        display: none;
+    }
+    .social-media-icon {
+        width: 12.5px;
+        height: 12.5px;
+    }
+}

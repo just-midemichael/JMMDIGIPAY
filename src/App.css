@@ -1,0 +1,14 @@
+#root {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  text-align: center;
+}
+
