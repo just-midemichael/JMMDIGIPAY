@@ -138,7 +138,7 @@ const Home = () => {
             <div className='download-image-container aos aos-left aos-fade'>
               <img className='image download-image ' src='image/download-app.png'/>
               <div className='screen'>
-                <iframe src='http://localhost:5173/' className='iframe' ></iframe>
+                <iframe src='https://digipaybank.netlify.app/' className='iframe' ></iframe>
               </div>
               <div className='screen-upper'></div>
             </div>
