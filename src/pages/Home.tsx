@@ -43,12 +43,12 @@ const Home = () => {
 
             <div className='license-container'>
               <div className='license-wrapper'>
-                <img className='license-icon' src='../src/assets/icon/NDIC-ICON.png' alt='ndic icon'/>
+                <img className='license-icon' src='src/assets/icon/NDIC-ICON.png' alt='ndic icon'/>
                 <a href='https://ndic.gov.ng/' target='_blank'>NDIC</a>
               </div>
 
               <div className='license-wrapper'>
-                <img className='license-icon' src='../src/assets/icon/CBN-ICON.png' alt='cbn icon'/>
+                <img className='license-icon' src='src/assets/icon/CBN-ICON.png' alt='cbn icon'/>
                 <a href='https://www.cbn.gov.ng/' target='_blank'>Lincensed by the Central Bank</a>
               </div>
             </div>
@@ -56,7 +56,7 @@ const Home = () => {
 
           <div className='image-focal-point aos aos-fade aos-show'>
             {/* <div className='image-container'></div> */}
-            <img className='image hero-image' src='../src/assets/image/hero-picture-3.png' />
+            <img className='image hero-image' src='src/assets/image/hero-picture-3.png' />
           </div>
         </div>
       </section>{/***********ENDs************/}
@@ -103,7 +103,7 @@ const Home = () => {
           <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/loan.jpg' onClick={() => navigate('/loan')}/>
+                <img className='image ' src='src/assets/image/loan.jpg' onClick={() => navigate('/loan')}/>
               </div>
             </div>
 
