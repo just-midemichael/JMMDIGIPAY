@@ -109,6 +109,7 @@
     width: 100%;
     height: fit-content;
     box-sizing: border-box;
+    background-color: black;
 }
 
 .hamburger-login-container .button {
