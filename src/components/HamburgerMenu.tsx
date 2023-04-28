@@ -173,7 +173,7 @@ const HamburgerMenu = ({menuDisplay}: HamburgerMenuProps) => {
                 
                 </div>
             </nav>
-            <div className='hamburger-login-container'>
+            <div className='hamburger-login-container' onClick={menuDisplay}>
                 <LoginButton>sign-in</LoginButton>
             </div>
             
