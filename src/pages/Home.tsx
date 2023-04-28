@@ -56,7 +56,7 @@ const Home = () => {
 
           <div className='image-focal-point aos aos-fade aos-show'>
             {/* <div className='image-container'></div> */}
-            <img className='image hero-image' src='src/assets/image/hero-picture-3.png' />
+            <img className='image hero-image' src='./src/assets/image/hero-picture-3.png' />
           </div>
         </div>
       </section>{/***********ENDs************/}
