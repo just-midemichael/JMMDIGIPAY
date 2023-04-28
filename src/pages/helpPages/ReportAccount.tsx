@@ -42,7 +42,7 @@ const ReportAccount = () => {
   }
 
   const handleSubmit = (event: any) => {
-    alert('you can report an account at the moment')
+    alert('you cannot report an account at the moment')
   }
 
 
