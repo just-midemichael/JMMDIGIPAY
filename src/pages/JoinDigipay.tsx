@@ -34,7 +34,7 @@ const JoinDigipay = () => {
 
           <div className='image-focal-point aos aos-fade aos-show'>
             {/* <div className='image-container'></div> */}
-            <img className='image hero-image' src='../src/assets/image/hero-picture-3.png' />
+            <img className='image hero-image' src='..image/hero-picture-3.png' />
           </div>
         </div>
       </section>{/***********ENDs************/}
@@ -44,7 +44,7 @@ const JoinDigipay = () => {
         <div className='box-wrapper'>
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='/src/assets/icon/download-prompt-icon.png'/>
+                <img className='icon' src='icon/download-prompt-icon.png'/>
               </div>
               <p className='description-container'>
                 Download DigiPay on Google Play or the App Store.
@@ -53,7 +53,7 @@ const JoinDigipay = () => {
 
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='/src/assets/icon/download-prompt-icon.png'/>
+                <img className='icon' src='icon/download-prompt-icon.png'/>
               </div>
               <p className='description-container'>
                 Open the app and follow the prompts on the screen.
@@ -62,7 +62,7 @@ const JoinDigipay = () => {
 
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='/src/assets/icon/download-prompt-icon.png'/>
+                <img className='icon' src='icon/download-prompt-icon.png'/>
               </div>
               <p className='description-container'>
                 Add money to your account to get the best out of DigiPay.
@@ -71,7 +71,7 @@ const JoinDigipay = () => {
 
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='/src/assets/icon/download-prompt-icon.png'/>
+                <img className='icon' src='icon/download-prompt-icon.png'/>
               </div>
               <p className='description-container'>
                 Start making transactions.

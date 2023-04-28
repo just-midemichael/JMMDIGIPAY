@@ -37,7 +37,7 @@ const Cards = () => {
 
           <div className='image-focal-point aos aos-fade aos-show'>
             {/* <div className='image-container'></div> */}
-            <img className='image hero-image' src='../src/assets/image/card-image-1.jpg' />
+            <img className='image hero-image' src='image/card-image-1.jpg' />
           </div>
         </div>
       </section>{/***********ENDs************/}
@@ -48,7 +48,7 @@ const Cards = () => {
         <div className='box-wrapper'>
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='../src/assets/icon/card-icon.png'/>
+                <img className='icon' src='icon/card-icon.png'/>
               </div>
               <p className='description-container'>
                 Pick up your card from us or choose our super fast delivery option.
@@ -57,7 +57,7 @@ const Cards = () => {
 
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='../src/assets/icon/card-icon.png'/>
+                <img className='icon' src='icon/card-icon.png'/>
               </div>
               <p className='description-container'>
                 Our cards are widely accepted for international and local transactions.
@@ -66,7 +66,7 @@ const Cards = () => {
 
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='../src/assets/icon/card-icon.png'/>
+                <img className='icon' src='icon/card-icon.png'/>
               </div>
               <p className='description-container'>
                 Zero card maintenance fee again.
@@ -77,7 +77,7 @@ const Cards = () => {
         <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/card-image-5.jpg'/>
+                <img className='image ' src='image/card-image-5.jpg'/>
               </div>
             </div>
 
@@ -101,7 +101,7 @@ const Cards = () => {
 
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/card-image-2.jpg'/>
+                <img className='image ' src='image/card-image-2.jpg'/>
               </div>  
             </div>
           </article>
@@ -109,7 +109,7 @@ const Cards = () => {
           <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/card-image-4.jpg'/>
+                <img className='image ' src='image/card-image-4.jpg'/>
               </div>
             </div>
 
@@ -133,7 +133,7 @@ const Cards = () => {
 
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/card-image-3.jpg'/>
+                <img className='image ' src='image/card-image-3.jpg'/>
               </div>
             </div>
           </article>

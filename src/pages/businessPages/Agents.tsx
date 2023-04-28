@@ -33,7 +33,7 @@ const Agents = () => {
 
           <div className='image-focal-point aos aos-fade aos-show'>
             {/* <div className='image-container'></div> */}
-            <img className='image hero-image' src='../src/assets/image/agent-image-1.jpg' />
+            <img className='image hero-image' src='image/agent-image-1.jpg' />
           </div>
         </div>
       </section>{/***********ENDs************/}
@@ -46,7 +46,7 @@ const Agents = () => {
           <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/agent-image-4.jpg'/>
+                <img className='image ' src='image/agent-image-4.jpg'/>
               </div>
             </div>
 
@@ -70,7 +70,7 @@ const Agents = () => {
 
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/agent-image-3.jpg'/>
+                <img className='image ' src='image/agent-image-3.jpg'/>
               </div>  
             </div>
           </article>
@@ -78,7 +78,7 @@ const Agents = () => {
           <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/agent-image-2.jpg'/>
+                <img className='image ' src='image/agent-image-2.jpg'/>
               </div>
             </div>
 
@@ -102,7 +102,7 @@ const Agents = () => {
 
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/agent-image-6.jpg'/>
+                <img className='image ' src='image/agent-image-6.jpg'/>
               </div>  
             </div>
           </article>
@@ -110,7 +110,7 @@ const Agents = () => {
           <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/agent-image-5.jpg'/>
+                <img className='image ' src='image/agent-image-5.jpg'/>
               </div>
             </div>
 
@@ -125,7 +125,7 @@ const Agents = () => {
 
           <div className='app-download-container'>
             <div className='download-image-container aos aos-left aos-fade'>
-              <img className='image download-image ' src='../src/assets/image/business-registration-image-2.png'/>
+              <img className='image download-image ' src='image/business-registration-image-2.png'/>
             </div>
 
             <div className='app-download-wrapper aos aos-right'>

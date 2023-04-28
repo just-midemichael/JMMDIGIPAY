@@ -30,7 +30,7 @@ const Loans = () => {
 
           <div className='image-focal-point aos aos-fade aos-show'>
             {/* <div className='image-container'></div> */}
-            <img className='image hero-image' src='../src/assets/image/loan-image-1.jpg' />
+            <img className='image hero-image' src='image/loan-image-1.jpg' />
           </div>
         </div>
       </section>{/***********ENDs************/}
@@ -41,7 +41,7 @@ const Loans = () => {
         <div className='box-wrapper'>
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='../src/assets/icon/loan-icon.png'/>
+                <img className='icon' src='icon/loan-icon.png'/>
               </div>
               <p className='description-container'>
                 Sign up on DigiPay and upgrade your account.
@@ -50,7 +50,7 @@ const Loans = () => {
 
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='../src/assets/icon/loan-icon.png'/>
+                <img className='icon' src='icon/loan-icon.png'/>
               </div>
               <p className='description-container'>
                 Use your account regularly, pay bills, and make transactions.
@@ -59,7 +59,7 @@ const Loans = () => {
 
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='../src/assets/icon/loan-icon.png'/>
+                <img className='icon' src='icon/loan-icon.png'/>
               </div>
               <p className='description-container'>
                 Get an overdraft!.
@@ -70,7 +70,7 @@ const Loans = () => {
         <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/loan-image-2.jpg'/>
+                <img className='image ' src='image/loan-image-2.jpg'/>
               </div>
             </div>
 
@@ -94,7 +94,7 @@ const Loans = () => {
 
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/loan-image-4.jpg'/>
+                <img className='image ' src='image/loan-image-4.jpg'/>
               </div>  
             </div>
           </article>
@@ -102,7 +102,7 @@ const Loans = () => {
           <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/loan-image-3.jpg'/>
+                <img className='image ' src='image/loan-image-3.jpg'/>
               </div>
             </div>
 

@@ -87,7 +87,7 @@ const faqs = [
           </div>
 
           <div className='image-focal-point aos aos-fade aos-show'>
-            <img className='image hero-image' src='../src/assets/image/faq-image.jpg' />
+            <img className='image hero-image' src='image/faq-image.jpg' />
           </div>
         </div>
       </section>{/***********ENDs************/}

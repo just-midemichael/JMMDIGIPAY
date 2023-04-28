@@ -28,7 +28,7 @@ const Savings = () => {
 
           <div className='image-focal-point aos aos-fade aos-show'>
             {/* <div className='image-container'></div> */}
-            <img className='image hero-image' src='../src/assets/image/saving-image-1.jpg' />
+            <img className='image hero-image' src='image/saving-image-1.jpg' />
           </div>
         </div>
       </section>{/***********ENDs************/}
@@ -39,7 +39,7 @@ const Savings = () => {
         <div className='box-wrapper'>
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='../src/assets/icon/saving-icon.png'/>
+                <img className='icon' src='icon/saving-icon.png'/>
               </div>
               <p className='description-container'>
                 Get up to 15.5% annual interest on Fixed Savings.
@@ -48,7 +48,7 @@ const Savings = () => {
 
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='../src/assets/icon/saving-icon.png'/>
+                <img className='icon' src='icon/saving-icon.png'/>
               </div>
               <p className='description-container'>
               Save every time with the the Save+Spend plan.
@@ -57,7 +57,7 @@ const Savings = () => {
 
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='../src/assets/icon/saving-icon.png'/>
+                <img className='icon' src='icon/saving-icon.png'/>
               </div>
               <p className='description-container'>
                 zero bank charges.
@@ -66,7 +66,7 @@ const Savings = () => {
 
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='../src/assets/icon/saving-icon.png'/>
+                <img className='icon' src='icon/saving-icon.png'/>
               </div>
               <p className='description-container'>
                 Invest spare cash and watch your money grow.
@@ -77,7 +77,7 @@ const Savings = () => {
         <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/saving-image-3.jpg'/>
+                <img className='image ' src='image/saving-image-3.jpg'/>
               </div>
             </div>
 
@@ -101,7 +101,7 @@ const Savings = () => {
 
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/saving-image-5.jpg'/>
+                <img className='image ' src='image/saving-image-5.jpg'/>
               </div>  
             </div>
           </article>
@@ -109,7 +109,7 @@ const Savings = () => {
           <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/saving-image-4.jpg'/>
+                <img className='image ' src='image/saving-image-4.jpg'/>
               </div>
             </div>
 

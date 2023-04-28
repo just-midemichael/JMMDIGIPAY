@@ -26,7 +26,7 @@ const ScamAwareness = () => {
           </div>
 
           <div className='image-focal-point aos aos-fade aos-show'>
-            <img className='image hero-image' src='../src/assets/image/scam-image-1.jpg' />
+            <img className='image hero-image' src='image/scam-image-1.jpg' />
           </div>
         </div>
       </section>{/***********ENDs************/}
@@ -38,7 +38,7 @@ const ScamAwareness = () => {
           <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/scam-image-3.jpg'/>
+                <img className='image ' src='image/scam-image-3.jpg'/>
               </div>
             </div>
 
@@ -146,7 +146,7 @@ const ScamAwareness = () => {
 
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/scam-image-2.jpg'/>
+                <img className='image ' src='image/scam-image-2.jpg'/>
               </div>
             </div>
           </article>
@@ -171,7 +171,7 @@ const ScamAwareness = () => {
             <article className='features-content-container'>
               <div className='image-focal-point aos aos-fade'>
                   <div className='image-container'>
-                    <img className='image ' src='../src/assets/image/scam-image-2.jpg'/>
+                    <img className='image ' src='image/scam-image-2.jpg'/>
                   </div>
               </div>
               <div className='text-focal-point aos aos-right'>

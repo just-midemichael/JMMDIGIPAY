@@ -37,7 +37,7 @@ const About = () => {
 
           <div className='image-focal-point aos aos-fade aos-show'>
             {/* <div className='image-container'></div> */}
-            <img className='image hero-image' src='../src/assets/image/hero-picture-3.png' />
+            <img className='image hero-image' src='image/hero-picture-3.png' />
           </div>
         </div>
       </section>{/***********ENDs************/}
@@ -81,7 +81,7 @@ const About = () => {
               <div className='founders-container'>
                 <div className='founder-details-wrapper aos aos-fade'>
                   <div className='founder-image-container'>
-                    <img src='../src/assets/image/founder-image-1.png' alt='founder' className='founder-image'/>
+                    <img src='image/founder-image-1.png' alt='founder' className='founder-image'/>
                   </div>
 
                   <div className='founder-description'>
@@ -92,7 +92,7 @@ const About = () => {
                 
                 <div className='founder-details-wrapper aos aos-fade'>
                   <div className='founder-image-container'>
-                    <img src='../src/assets/image/founder-image-1.png' alt='founder' className='founder-image'/>
+                    <img src='image/founder-image-1.png' alt='founder' className='founder-image'/>
                   </div>
 
                   <div className='founder-description'>

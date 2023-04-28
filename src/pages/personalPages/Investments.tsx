@@ -29,7 +29,7 @@ const Investments = () => {
 
           <div className='image-focal-point aos aos-fade aos-show'>
             {/* <div className='image-container'></div> */}
-            <img className='image hero-image' src='../src/assets/image/investment-image-2.jpg' />
+            <img className='image hero-image' src='image/investment-image-2.jpg' />
           </div>
         </div>
       </section>{/***********ENDs************/}
@@ -40,7 +40,7 @@ const Investments = () => {
         <div className='box-wrapper'>
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='../src/assets/icon/investment-icon.png'/>
+                <img className='icon' src='icon/investment-icon.png'/>
               </div>
               <p className='description-container'>
                 Explore a wide range of international stocks.
@@ -49,7 +49,7 @@ const Investments = () => {
 
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='../src/assets/icon/investment-icon.png'/>
+                <img className='icon' src='icon/investment-icon.png'/>
               </div>
               <p className='description-container'>
                 Buy stocks easily with your local currency.
@@ -58,7 +58,7 @@ const Investments = () => {
 
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='../src/assets/icon/investment-icon.png'/>
+                <img className='icon' src='icon/investment-icon.png'/>
               </div>
               <p className='description-container'>
                 Get real-time stock prices and trade notifications.
@@ -67,7 +67,7 @@ const Investments = () => {
 
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='../src/assets/icon/investment-icon.png'/>
+                <img className='icon' src='icon/investment-icon.png'/>
               </div>
               <p className='description-container'>
                 Earn dividends on well-performing stocks.
@@ -78,7 +78,7 @@ const Investments = () => {
         <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/investment-image-3.jpg'/>
+                <img className='image ' src='image/investment-image-3.jpg'/>
               </div>
             </div>
 
@@ -102,7 +102,7 @@ const Investments = () => {
 
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/investment-image-1.jpg'/>
+                <img className='image ' src='image/investment-image-1.jpg'/>
               </div>  
             </div>
           </article>
@@ -110,7 +110,7 @@ const Investments = () => {
           <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/investment-image-4.jpg'/>
+                <img className='image ' src='image/investment-image-4.jpg'/>
               </div>
             </div>
 

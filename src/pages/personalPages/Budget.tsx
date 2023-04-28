@@ -29,7 +29,7 @@ const Budget = () => {
 
           <div className='image-focal-point aos aos-fade aos-show'>
             {/* <div className='image-container'></div> */}
-            <img className='image hero-image' src='../src/assets/image/budget-image-2.jpg' />
+            <img className='image hero-image' src='image/budget-image-2.jpg' />
           </div>
         </div>
       </section>{/***********ENDs************/}
@@ -40,7 +40,7 @@ const Budget = () => {
         <div className='box-wrapper'>
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='../src/assets/icon/budget-icon.png'/>
+                <img className='icon' src='icon/budget-icon.png'/>
               </div>
               <p className='description-container'>
                 Dive into your transactions to see where your money is going.
@@ -49,7 +49,7 @@ const Budget = () => {
 
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='../src/assets/icon/budget-icon.png'/>
+                <img className='icon' src='icon/budget-icon.png'/>
               </div>
               <p className='description-container'>
                 Create a budget to track your spending and saving.
@@ -58,7 +58,7 @@ const Budget = () => {
 
           <Box>
               <div className='icon-container'>
-                <img className='icon' src='../src/assets/icon/budget-icon.png'/>
+                <img className='icon' src='icon/budget-icon.png'/>
               </div>
               <p className='description-container'>
                 Get a cystal-clear visual analysis of your finances.
@@ -69,7 +69,7 @@ const Budget = () => {
         <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/budget-image-5.jpg'/>
+                <img className='image ' src='image/budget-image-5.jpg'/>
               </div>
             </div>
 
@@ -93,7 +93,7 @@ const Budget = () => {
 
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/budget-image-7.jpg'/>
+                <img className='image ' src='image/budget-image-7.jpg'/>
               </div>  
             </div>
           </article>
@@ -101,7 +101,7 @@ const Budget = () => {
           <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/budget-image-6.jpg'/>
+                <img className='image ' src='image/budget-image-6.jpg'/>
               </div>
             </div>
 
