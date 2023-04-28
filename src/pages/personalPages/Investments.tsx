@@ -13,7 +13,7 @@ const Investments = () => {
       {/* SECTION - 1 */}
       <section className='section-1 hero-section'>
         <div className='content-container'>
-          <div className='text-focal-point aos aos-left aos-show'>
+          <div className='text-focal-point'>
 
             <span className='core-value'>
               Invest in International stocks at best prices
@@ -27,7 +27,7 @@ const Investments = () => {
             </div>
           </div>
 
-          <div className='image-focal-point aos aos-fade aos-show'>
+          <div className='image-focal-point'>
             {/* <div className='image-container'></div> */}
             <img className='image hero-image' src='image/investment-image-2.jpg' />
           </div>

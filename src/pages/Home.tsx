@@ -18,7 +18,7 @@ const Home = () => {
       {/* SECTION - 1 */}
       <section className='section-1 hero-section'>
         <div className='content-container'>
-          <div className='text-focal-point aos aos-left aos-show'>
+          <div className='text-focal-point'>
 
             <span className='core-value'>Providing you with fast and reliable</span>
 
@@ -54,7 +54,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className='image-focal-point aos aos-fade aos-show'>
+          <div className='image-focal-point'>
             {/* <div className='image-container'></div> */}
             <img className='image hero-image' src='image/hero-picture-3.png' />
           </div>

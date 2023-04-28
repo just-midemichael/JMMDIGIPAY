@@ -14,7 +14,7 @@ const ScamAwareness = () => {
       {/* SECTION - 1 */}
       <section className='section-1 hero-section'>
         <div className='content-container'>
-          <div className='text-focal-point aos aos-left aos-show'>
+          <div className='text-focal-point'>
 
             <span className='core-value'>Scam And Fraud Awareness</span>
             
@@ -25,7 +25,7 @@ const ScamAwareness = () => {
             </div>
           </div>
 
-          <div className='image-focal-point aos aos-fade aos-show'>
+          <div className='image-focal-point'>
             <img className='image hero-image' src='image/scam-image-1.jpg' />
           </div>
         </div>
