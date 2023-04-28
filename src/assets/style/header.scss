@@ -6,6 +6,8 @@ $buttonHoverColor: rgb(12, 161, 203);
 $textColor-8: blue;
 $textColor-9:  rgb(8, 8, 188);
 $box-shadow: 0.5px 0.5px 6px rgba(128, 128, 128, 0.177);
+$box-shadow-1: 1px 1px 6px rgba(128, 128, 128, 0.177);
+$box-shadow-2: 3px -3px 10px rgba(128, 128, 128, 0.273);
 
 
 header {
@@ -20,8 +22,9 @@ header {
     box-sizing: border-box;
     padding: 5px 5%;
     z-index: 15;
-    background-color: $headerBgColor;
-    color: $headerTextColor;
+    background-color: white;
+    color: black;
+    box-shadow: $box-shadow-1;
 }
 
 .logo-container, .navbar-container, .login-container, .hamburger-container {

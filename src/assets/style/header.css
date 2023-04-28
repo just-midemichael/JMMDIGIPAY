@@ -9,8 +9,9 @@ header {
     box-sizing: border-box;
     padding: 5px 5%;
     z-index: 15;
-    background-color: #151515;
-    color: white;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.177);
 }
 
 .logo-container, .navbar-container, .login-container, .hamburger-container {
