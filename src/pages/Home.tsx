@@ -43,12 +43,12 @@ const Home = () => {
 
             <div className='license-container'>
               <div className='license-wrapper'>
-                <img className='license-icon' src='src/assets/icon/NDIC-ICON.png' alt='ndic icon'/>
+                <img className='license-icon' src='icon/NDIC-ICON.png' alt='ndic icon'/>
                 <a href='https://ndic.gov.ng/' target='_blank'>NDIC</a>
               </div>
 
               <div className='license-wrapper'>
-                <img className='license-icon' src='src/assets/icon/CBN-ICON.png' alt='cbn icon'/>
+                <img className='license-icon' src='icon/CBN-ICON.png' alt='cbn icon'/>
                 <a href='https://www.cbn.gov.ng/' target='_blank'>Lincensed by the Central Bank</a>
               </div>
             </div>
@@ -69,7 +69,7 @@ const Home = () => {
           <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/investment.jpg' onClick={() => navigate('/investment')}/>
+                <img className='image ' src='image/investment.jpg' onClick={() => navigate('/investment')}/>
               </div>
             </div>
 
@@ -95,7 +95,7 @@ const Home = () => {
 
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/saving.jpg' onClick={() => navigate('/saving')}/>
+                <img className='image ' src='image/saving.jpg' onClick={() => navigate('/saving')}/>
               </div>  
             </div>
           </article>
@@ -103,7 +103,7 @@ const Home = () => {
           <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='src/assets/image/loan.jpg' onClick={() => navigate('/loan')}/>
+                <img className='image ' src='image/loan.jpg' onClick={() => navigate('/loan')}/>
               </div>
             </div>
 
@@ -129,14 +129,14 @@ const Home = () => {
 
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='../src/assets/image/payment.jpg'/>
+                <img className='image ' src='image/payment.jpg'/>
               </div>  
             </div>
           </article>
 
           <div className='app-download-container'>
             <div className='download-image-container aos aos-left aos-fade'>
-              <img className='image download-image ' src='../src/assets/image/download-app.png'/>
+              <img className='image download-image ' src='image/download-app.png'/>
               <div className='screen'>
                 <iframe src='http://localhost:5173/' className='iframe' ></iframe>
               </div>
@@ -164,7 +164,7 @@ const Home = () => {
           <div className='testimony-wrapper'>
             <div className='testimony-box '>
               <div className='user-detail-section'>
-                <img src='../src/assets/image/saving.jpg' className='user-picture' />
+                <img src='image/saving.jpg' className='user-picture' />
                 <p className='user-name '>Akorede Akeroro</p>
               </div>
 
@@ -174,7 +174,7 @@ const Home = () => {
             </div>
             <div className='testimony-box '>
               <div className='user-detail-section'>
-                <img src='../src/assets/image/saving.jpg' className='user-picture' />
+                <img src='image/saving.jpg' className='user-picture' />
                 <p className='user-name '>Vivian Omogoye</p>
               </div>
 
@@ -184,7 +184,7 @@ const Home = () => {
             </div>
             <div className='testimony-box '>
               <div className='user-detail-section'>
-                <img src='../src/assets/image/saving.jpg' className='user-picture' />
+                <img src='image/saving.jpg' className='user-picture' />
                 <p className='user-name '>Zainab ahmed</p>
               </div>
 
@@ -194,7 +194,7 @@ const Home = () => {
             </div>
             <div className='testimony-box '>
               <div className='user-detail-section'>
-                <img src='../src/assets/image/saving.jpg' className='user-picture' />
+                <img src='image/saving.jpg' className='user-picture' />
                 <p className='user-name '>Joseph Chijioke</p>
               </div>
 
