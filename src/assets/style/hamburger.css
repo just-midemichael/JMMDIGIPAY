@@ -17,6 +17,6 @@
     height: 2px;
     box-sizing: border-box;
     margin: 1.8px;
-    transition: 400ms ease;
+    transition: 400ms;
     border-radius: 5px;
 }
