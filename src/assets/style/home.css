@@ -108,10 +108,10 @@
         color: blue;
     }
     50% {
-        transform: translateY(-54px);
+        transform: translateY(-58px);
     }
     75% {
-        transform: translateY(-54px);
+        transform: translateY(-58px);
     }
 }
 @keyframes csAnim3 {
@@ -120,10 +120,10 @@
         color: blue;
     }
     50% {
-        transform: translateY(-106px);
+        transform: translateY(-118px);
     }
     75% {
-        transform: translateY(-106px);
+        transform: translateY(-118px);
     }
 }
 .text-focal-point .core-service {
@@ -133,8 +133,8 @@
     width: 100%;
     padding: 5px;
     box-sizing: border-box;
-    font-size: 1.8rem;
-    font-weight: 800;
+    font-size: 2rem;
+    font-weight: 1000;
 }
 
 .summary-container {

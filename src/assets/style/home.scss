@@ -126,10 +126,10 @@ $box-shadow: 0.5px 0.5px 6px rgba(128, 128, 128, 0.177);
         color: $textColor-8;
     }
     50% {
-        transform: translateY(-54px);
+        transform: translateY(-58px);
     }
     75% {
-        transform: translateY(-54px);
+        transform: translateY(-58px);
     }
     100% {
         // color: $heroBgColor;
@@ -141,10 +141,10 @@ $box-shadow: 0.5px 0.5px 6px rgba(128, 128, 128, 0.177);
         color: $textColor-8;
     }
     50% {
-        transform: translateY(-106px);
+        transform: translateY(-118px);
     }
     75% {
-        transform: translateY(-106px);
+        transform: translateY(-118px);
     }
     100% {
         // color: $heroBgColor;
@@ -154,12 +154,12 @@ $box-shadow: 0.5px 0.5px 6px rgba(128, 128, 128, 0.177);
     color: $textColor-8;
     background-color: inherit;
     text-align: inherit;
-    // border: 1px solid white;
+    // border: 1px solid green;
     width: 100%;
     padding: 5px;
     box-sizing: border-box;
-    font-size: 1.8rem;
-    font-weight: 800;
+    font-size: 2rem;
+    font-weight: 1000;
 }
 
 
