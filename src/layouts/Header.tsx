@@ -42,7 +42,7 @@ const Header = () => {
             blurBackground.style.backgroundColor = 'rgba(0, 0, 0, 0.188)'
             blurBackground.style.transition = '1000ms ease 400ms'
             bodyContainer.style.filter = 'blur(3px)'
-            rootBody.style.transition = '1000ms ease 400ms'
+            rootBody.style.transition = '1000ms ease 600ms'
             rootBody.style.overflowY = 'hidden'
         }
         else {
@@ -54,7 +54,7 @@ const Header = () => {
             blurBackground.style.backgroundColor = ''
             blurBackground.style.transition = ''
             bodyContainer.style.filter = ''
-            rootBody.style.transition = '1000ms ease 400ms'
+            rootBody.style.transition = '1000ms ease 600ms'
             rootBody.style.overflowY = ''
         }
         toggleTranslate()
