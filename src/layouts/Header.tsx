@@ -37,10 +37,10 @@ const Header = () => {
             menuWrapper.style.transform = 'translateX(0%)'
             menuNav.style.transform = 'translateX(0%)'
 
-            menuWrapper.style.transition = '600ms ease-in-out'
-            menuNav.style.transition = '900ms ease-in-out 300ms'
+            menuWrapper.style.transition = '600ms ease'
+            menuNav.style.transition = '900ms ease 300ms'
             blurBackground.style.backgroundColor = 'rgba(0, 0, 0, 0.188)'
-            blurBackground.style.transition = '1000ms ease-in-out 400ms'
+            blurBackground.style.transition = '1000ms ease 400ms'
             bodyContainer.style.filter = 'blur(3px)'
             rootBody.style.overflowY = 'hidden'
         }
@@ -48,8 +48,8 @@ const Header = () => {
             menuWrapper.style.transform = 'translateX(-100%)'
             menuNav.style.transform = 'translateX(-100%)'
 
-            menuWrapper.style.transition = '900ms ease-in-out 300ms'
-            menuNav.style.transition = '600ms ease-in-out'
+            menuWrapper.style.transition = '900ms ease 300ms'
+            menuNav.style.transition = '600ms ease'
             blurBackground.style.backgroundColor = ''
             blurBackground.style.transition = ''
             bodyContainer.style.filter = ''
