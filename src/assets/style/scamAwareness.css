@@ -409,6 +409,12 @@ header .button:hover {
     background-color: #a20a51 !important;
 }
 
+.section-2 .spot-scam-container {
+    border: 2px solid navy;
+    min-height: 40vh;
+    min-height: 40dvh;
+}
+
 @media (max-width: 1000px) {
     .features-content-container .title {
         text-align: center;

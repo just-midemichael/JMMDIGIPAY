@@ -152,7 +152,7 @@ const ScamAwareness = () => {
           </article>
         </div>
 
-          <div className='scam-information'>
+          <div className='scam-information spot-scam-container'>
             <div className='information-title aos aos-bottom'>How to spot a scam email</div>
 
             <p className='aos aos-bottom'>
@@ -163,17 +163,9 @@ const ScamAwareness = () => {
             </p>
           </div>
 
-          
-
-
             
-          <div className='scam-awareness-container'>
+          <div className='scam-awareness-container identify-scam-container'>
             <article className='features-content-container'>
-              <div className='image-focal-point aos aos-fade'>
-                  <div className='image-container'>
-                    <img className='image ' src='image/scam-image-2.jpg'/>
-                  </div>
-              </div>
               <div className='text-focal-point aos aos-right'>
                 <div className='information-title'>How to identify a scam</div>
 
@@ -191,6 +183,12 @@ const ScamAwareness = () => {
                     A text or WhatsApp message, email, phone call or social media post urging you to make a payment or investment quickly.
                   </li>
                 </div>
+              </div>
+
+              <div className='image-focal-point aos aos-fade'>
+                  <div className='image-container'>
+                    <img className='image ' src='image/scam-image-2.jpg'/>
+                  </div>
               </div>
             </article>
           </div>
