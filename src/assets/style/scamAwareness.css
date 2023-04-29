@@ -410,8 +410,8 @@ header .button:hover {
 }
 
 .section-2 .spot-scam-container {
-    min-height: 40vh;
-    min-height: 40dvh;
+    min-height: 30vh;
+    min-height: 30dvh;
 }
 
 @media (max-width: 1000px) {
