@@ -44,7 +44,7 @@ const BusinessRegistration = () => {
       <section className='section-2 features-section'>
         
           <article className='features-content-container'>
-            <div className='text-focal-point aos aos-right'>
+            <div className='text-focal-point aos aos-left'>
               <div className='title '>Meet the requirements for a full business account</div>
 
               <div className='text-description '>
@@ -66,7 +66,7 @@ const BusinessRegistration = () => {
               </div>  
             </div>
 
-            <div className='text-focal-point aos aos-left'>
+            <div className='text-focal-point aos aos-right'>
               <div className='title '>Give potential customers more confidence in your business</div>
 
               <div className='text-description '>
@@ -76,7 +76,7 @@ const BusinessRegistration = () => {
           </article>
 
           <article className='features-content-container'>
-            <div className='text-focal-point aos aos-right'>
+            <div className='text-focal-point aos aos-left'>
               <div className='title'>Take advantage of opportunities to upscale your business</div>
 
               <div className='text-description '>
@@ -98,7 +98,7 @@ const BusinessRegistration = () => {
               </div>  
             </div>
 
-            <div className='text-focal-point aos aos-left'>
+            <div className='text-focal-point aos aos-right'>
               <div className='title '>Register your business to grow!</div>
 
               <div className='text-description '>
