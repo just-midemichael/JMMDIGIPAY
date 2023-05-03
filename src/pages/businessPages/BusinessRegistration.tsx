@@ -44,12 +44,6 @@ const BusinessRegistration = () => {
       <section className='section-2 features-section'>
         
           <article className='features-content-container'>
-            <div className='image-focal-point aos aos-fade'>
-              <div className='image-container'>
-                <img className='image ' src='image/business-registration-image-8.jpg'/>
-              </div>
-            </div>
-
             <div className='text-focal-point aos aos-right'>
               <div className='title '>Meet the requirements for a full business account</div>
 
@@ -57,9 +51,21 @@ const BusinessRegistration = () => {
                 With a registered business, you can upgrade to a full DigiPay Business account and increase your daily transaction limit to ₦250 million.
               </div>
             </div>
+
+            <div className='image-focal-point aos aos-fade'>
+              <div className='image-container'>
+                <img className='image ' src='image/business-registration-image-8.jpg'/>
+              </div>
+            </div>
           </article>
 
           <article className='features-content-container'>
+            <div className='image-focal-point aos aos-fade'>
+              <div className='image-container'>
+                <img className='image ' src='image/business-registration-image-6.jpg'/>
+              </div>  
+            </div>
+
             <div className='text-focal-point aos aos-left'>
               <div className='title '>Give potential customers more confidence in your business</div>
 
@@ -67,21 +73,9 @@ const BusinessRegistration = () => {
                 Registering your business with the CAC makes it official and more trustworthy.
               </div>
             </div>
-
-            <div className='image-focal-point aos aos-fade'>
-              <div className='image-container'>
-                <img className='image ' src='image/business-registration-image-6.jpg'/>
-              </div>  
-            </div>
           </article>
 
           <article className='features-content-container'>
-            <div className='image-focal-point aos aos-fade'>
-              <div className='image-container'>
-                <img className='image ' src='image/business-registration-image-5.jpg'/>
-              </div>
-            </div>
-
             <div className='text-focal-point aos aos-right'>
               <div className='title'>Take advantage of opportunities to upscale your business</div>
 
@@ -89,21 +83,27 @@ const BusinessRegistration = () => {
                 Get your CAC documents so you can apply for loans and grants that are exclusive to registered businesses.
               </div>
             </div>
+
+            <div className='image-focal-point aos aos-fade'>
+              <div className='image-container'>
+                <img className='image ' src='image/business-registration-image-5.jpg'/>
+              </div>
+            </div>
           </article>
 
           <article className='features-content-container'>
+            <div className='image-focal-point aos aos-fade'>
+              <div className='image-container'>
+                <img className='image ' src='image/business-registration-image-9.jpg'/>
+              </div>  
+            </div>
+
             <div className='text-focal-point aos aos-left'>
               <div className='title '>Register your business to grow!</div>
 
               <div className='text-description '>
                 Get your CAC registration documents and your Tax Identification Number (TIN) easily through your DigiPay Business account.
               </div>
-            </div>
-
-            <div className='image-focal-point aos aos-fade'>
-              <div className='image-container'>
-                <img className='image ' src='image/business-registration-image-9.jpg'/>
-              </div>  
             </div>
           </article>
 
