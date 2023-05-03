@@ -44,12 +44,6 @@ const Agents = () => {
       <section className='section-2 features-section'>
         
           <article className='features-content-container'>
-            <div className='image-focal-point aos aos-fade'>
-              <div className='image-container'>
-                <img className='image ' src='image/agent-image-4.jpg'/>
-              </div>
-            </div>
-
             <div className='text-focal-point aos aos-right'>
               <div className='title '>High commissions</div>
 
@@ -57,9 +51,21 @@ const Agents = () => {
                 Earn more with DigiPay! Enjoy low fees and earn extra incentives for hitting performance milestones.
               </div>
             </div>
+
+            <div className='image-focal-point aos aos-fade'>
+              <div className='image-container'>
+                <img className='image ' src='image/agent-image-4.jpg'/>
+              </div>
+            </div>
           </article>
 
           <article className='features-content-container'>
+            <div className='image-focal-point aos aos-fade'>
+              <div className='image-container'>
+                <img className='image ' src='image/agent-image-3.jpg'/>
+              </div>  
+            </div>
+
             <div className='text-focal-point aos aos-left'>
               <div className='title '>Quick settlements</div>
 
@@ -67,21 +73,9 @@ const Agents = () => {
                 With DigiPay, you have the freedom to access your money the moment you make it through instant settlement.
               </div>
             </div>
-
-            <div className='image-focal-point aos aos-fade'>
-              <div className='image-container'>
-                <img className='image ' src='image/agent-image-3.jpg'/>
-              </div>  
-            </div>
           </article>
 
           <article className='features-content-container'>
-            <div className='image-focal-point aos aos-fade'>
-              <div className='image-container'>
-                <img className='image ' src='image/agent-image-2.jpg'/>
-              </div>
-            </div>
-
             <div className='text-focal-point aos aos-right'>
               <div className='title'>Great support to help you</div>
 
@@ -89,9 +83,21 @@ const Agents = () => {
                 Every agent is allocated a dedicated sales manager. We also have several support channels for you to reach us anytime you have a question or need assistance.
               </div>
             </div>
+
+            <div className='image-focal-point aos aos-fade'>
+              <div className='image-container'>
+                <img className='image ' src='image/agent-image-2.jpg'/>
+              </div>
+            </div>
           </article>
 
           <article className='features-content-container'>
+          <div className='image-focal-point aos aos-fade'>
+              <div className='image-container'>
+                <img className='image ' src='image/agent-image-6.jpg'/>
+              </div>  
+            </div>
+
             <div className='text-focal-point aos aos-left'>
               <div className='title '>24/7 support</div>
 
@@ -99,26 +105,20 @@ const Agents = () => {
                 You'll have access to a dedicated sales manager and our 24/7 customer care line to support you.
               </div>
             </div>
-
-            <div className='image-focal-point aos aos-fade'>
-              <div className='image-container'>
-                <img className='image ' src='image/agent-image-6.jpg'/>
-              </div>  
-            </div>
           </article>
 
           <article className='features-content-container'>
-            <div className='image-focal-point aos aos-fade'>
-              <div className='image-container'>
-                <img className='image ' src='image/agent-image-5.jpg'/>
-              </div>
-            </div>
-
             <div className='text-focal-point aos aos-right'>
               <div className='title'>The right business solution for you</div>
 
               <div className='text-description '>
                 Whether you're just getting started or have complex business requirements, we have the solution for you! Financing options available.
+              </div>
+            </div>
+
+            <div className='image-focal-point aos aos-fade'>
+              <div className='image-container'>
+                <img className='image ' src='image/agent-image-5.jpg'/>
               </div>
             </div>
           </article>
