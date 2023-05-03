@@ -125,7 +125,7 @@ const ScamAwareness = () => {
 
         <div className='scam-awareness-container'>
           <article className='features-content-container'>
-            <div className='text-focal-point aos aos-left'>
+            <div className='text-focal-point aos aos-right'>
               <div className='information-title'>Common payment scams</div>
 
               <div className='text-description '>
