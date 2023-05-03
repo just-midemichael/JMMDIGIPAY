@@ -45,7 +45,7 @@ const POS = () => {
       <section className='section-2 features-section'>
         
           <article className='features-content-container'>
-            <div className='text-focal-point aos aos-right'>
+            <div className='text-focal-point aos aos-left'>
               <div className='title '>Move your business forward with DigiPay POS</div>
 
               <div className='text-description '>
@@ -67,7 +67,7 @@ const POS = () => {
               </div>  
             </div>
 
-            <div className='text-focal-point aos aos-left'>
+            <div className='text-focal-point aos aos-right'>
               <div className='title '>Keep an eye on your revenue</div>
 
               <div className='text-description '>
@@ -77,7 +77,7 @@ const POS = () => {
           </article>
 
           <article className='features-content-container'>
-            <div className='text-focal-point aos aos-right'>
+            <div className='text-focal-point aos aos-left'>
               <div className='title'>Give your customers more flexible payment option</div>
 
               <div className='text-description '>
@@ -99,7 +99,7 @@ const POS = () => {
               </div>  
             </div>
 
-            <div className='text-focal-point aos aos-left'>
+            <div className='text-focal-point aos aos-right'>
               <div className='title '>Supercharge your sales with Sales Mode</div>
 
               <div className='text-description '>
@@ -109,7 +109,7 @@ const POS = () => {
           </article>
 
           <article className='features-content-container'>
-            <div className='text-focal-point aos aos-right'>
+            <div className='text-focal-point aos aos-left'>
               <div className='title'>Receive payments on the move with DigiPay POS</div>
 
               <div className='text-description '>
