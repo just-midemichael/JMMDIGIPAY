@@ -44,7 +44,7 @@ const Agents = () => {
       <section className='section-2 features-section'>
         
           <article className='features-content-container'>
-            <div className='text-focal-point aos aos-right'>
+            <div className='text-focal-point aos aos-left'>
               <div className='title '>High commissions</div>
 
               <div className='text-description '>
@@ -66,7 +66,7 @@ const Agents = () => {
               </div>  
             </div>
 
-            <div className='text-focal-point aos aos-left'>
+            <div className='text-focal-point aos aos-right'>
               <div className='title '>Quick settlements</div>
 
               <div className='text-description '>
@@ -76,7 +76,7 @@ const Agents = () => {
           </article>
 
           <article className='features-content-container'>
-            <div className='text-focal-point aos aos-right'>
+            <div className='text-focal-point aos aos-left'>
               <div className='title'>Great support to help you</div>
 
               <div className='text-description '>
@@ -92,13 +92,13 @@ const Agents = () => {
           </article>
 
           <article className='features-content-container'>
-          <div className='image-focal-point aos aos-fade'>
+            <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
                 <img className='image ' src='image/agent-image-6.jpg'/>
               </div>  
             </div>
 
-            <div className='text-focal-point aos aos-left'>
+            <div className='text-focal-point aos aos-right'>
               <div className='title '>24/7 support</div>
 
               <div className='text-description '>
@@ -108,7 +108,7 @@ const Agents = () => {
           </article>
 
           <article className='features-content-container'>
-            <div className='text-focal-point aos aos-right'>
+            <div className='text-focal-point aos aos-left'>
               <div className='title'>The right business solution for you</div>
 
               <div className='text-description '>
