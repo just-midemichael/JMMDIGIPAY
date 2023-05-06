@@ -45,6 +45,8 @@ const LazyScamAwareness = React.lazy(() => import('../pages/helpPages/ScamAwaren
 const LazyFAQs = React.lazy(() => import('../pages/helpPages/FAQs'))
 const LazyReportAccount = React.lazy(() => import('../pages/helpPages/ReportAccount'))
 
+const LazyHelpHome = React.lazy(() => import('../pages/helpPages/gethelp/Home'))
+const LazyHelpTicket = React.lazy(() =>  import('../pages/helpPages/gethelp/Ticket'))
 
 const Router = () => {
   return (
@@ -89,7 +91,14 @@ const Router = () => {
 
         {/* Help Route */}
         <Route path='help' element={
-          <React.Suspense><LazyGetHelp/></React.Suspense>}/>
+          <React.Suspense><LazyGetHelp/></React.Suspense>}>
+            <Route index element={
+              <React.Suspense><LazyHelpHome/></React.Suspense>} />
+            <Route path='home' element={
+              <React.Suspense><LazyHelpHome/></React.Suspense>} />
+            <Route path='ticket' element={
+              <React.Suspense><LazyHelpTicket/></React.Suspense>} />
+          </Route>
         <Route path='scam-awareness' element={
           <React.Suspense>< LazyScamAwareness/></React.Suspense>}/>
         <Route path='faqs' element={
