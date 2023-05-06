@@ -1,0 +1,80 @@
+//Color
+$textColor-0: rgb(12, 161, 203);
+$textColor-1: rgb(9, 178, 225);
+$textColor-2: rgb(107, 105, 105);
+$textColor-3: gold;
+$textColor-4: rgb(174, 11, 87);
+$textColor-5: white;
+$textColor-6: black;
+$textColor-7: rgba(9, 178, 225, 0.484);
+$textColor-8: blue;
+$textColor-9:  rgb(8, 8, 188);
+$heroBgColor: rgb(21, 21, 21);
+$bgColor: rgb(174, 11, 87);
+$bgColorHover: rgb(162, 10, 81);
+$box-shadow: 0.5px 0.5px 6px rgba(128, 128, 128, 0.177);
+$box-shadow-1: 1px 1px 6px rgba(128, 128, 128, 0.177);
+$box-shadow-2: 3px -3px 10px rgba(128, 128, 128, 0.273);
+
+.help-card-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    // border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: $box-shadow;
+    overflow: hidden;
+    cursor: pointer;
+}
+.help-card-box:hover {
+    background-color: $textColor-1;
+}
+.help-card-icon {
+    width: 80px;
+    height: 80px;
+}
+.help-card-title {
+    color: $textColor-8;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.help-card-box:hover .help-card-title {
+    color: black;
+}
+@media (max-width: 1000px) {
+    .help-card-box {
+        height: 175px;
+        width: 175px;
+    }
+    .help-card-icon {
+        width: 70px;
+        height: 70px;
+    }
+    .help-card-title {
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 750px) {
+    .help-card-box {
+        height: 175px;
+        width: 175px;
+    }
+}
+@media (max-width: 350px) {
+    .help-card-box {
+        height: 150px;
+        width: 150px;
+    }
+    .help-card-icon {
+        width: 60px;
+        height: 60px;
+    }
+    .help-card-title {
+        font-size: 1.0rem;
+    }
+}
