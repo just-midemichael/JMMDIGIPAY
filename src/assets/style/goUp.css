@@ -7,7 +7,7 @@
     align-items: center;
     padding: 1%;
     font-size: 0.9rem;
-    color: black;
+    color: white;
     font-weight: bolder;
     cursor: pointer;
     box-sizing: border-box;
@@ -16,12 +16,12 @@
     width: 42.5px;
     height: 42.5px;
     border-radius: 100%;
-    background-color: #09b2e1;
+    background-color: navy;
     z-index: 13;
 }
 
 .go-up:hover {
-    background-color: #0ca1cb;
+    background-color: #040495;
 }
 
 .go-up a {

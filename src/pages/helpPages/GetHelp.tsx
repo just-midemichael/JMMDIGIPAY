@@ -1,4 +1,5 @@
 import React from 'react'
+import SearchInput from '../../components/input/SearchInput'
 
 const GetHelp = () => {
     const docTitle = () => {
@@ -7,7 +8,9 @@ const GetHelp = () => {
     docTitle()
 
     return (
-        <section className='body'>Get Help</section>
+        <div className='body get-help-body'>
+            <SearchInput/>
+        </div>
     )
 }
 
