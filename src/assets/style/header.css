@@ -61,7 +61,7 @@ header .nav-sub-link {
 header .button {
     background-color: navy !important;
     color: white !important;
-    height: fit-content !important;
+    height: 40px !important;
 }
 
 header .button:hover {
