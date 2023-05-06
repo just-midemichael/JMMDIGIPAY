@@ -1,0 +1,21 @@
+.header-title-h2 {
+    font-size: 1.8rem;
+    color: blue;
+    font-weight: 800;
+}
+
+@media (max-width: 1000px) {
+    .header-title-h2 {
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 750px) {
+    .header-title-h2 {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 350px) {
+    .header-title-h2 {
+        font-size: 1.2rem;
+    }
+}
