@@ -20,3 +20,36 @@ $box-shadow-2: 3px -3px 10px rgba(128, 128, 128, 0.273);
 .get-help-ticket-body {
     padding: 20px 10%;
 }
+
+.get-help-ticket-body section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 20px;
+}
+
+.ticket-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    text-align: start;
+    width: 100%;
+    max-width: 600px;
+}
+.button-container {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+.get-help-ticket-body button {
+    border-radius: 5px !important;
+    height: 30px;
+    font-weight: normal !important;
+    font-size: 0.8rem !important;
+}
+.get-help-ticket-body button:nth-child(2) {
+    background-color: white !important;
+    color: navy;
+    border: 1px solid rgba(128, 128, 128, 0.177) !important;
+}

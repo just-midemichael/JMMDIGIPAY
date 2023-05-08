@@ -4,6 +4,11 @@ import HeaderTitle from '../../../components/headerTitle/HeaderTitle'
 import HelpCard from '../../../components/card/HelpCard'
 
 const Home = () => {
+  const docTitle = () => {
+    document.title = 'Help & Support | home'
+  }
+  docTitle()
+  
   return (
     <main className='body get-help-home-body'>
       <HeaderTitle>Advice and answers from the DigiPay Team</HeaderTitle>

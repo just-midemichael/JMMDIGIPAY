@@ -1,7 +1,12 @@
-import React, { ReactNode } from 'react'
+import React, { Children, ReactNode } from 'react'
 import '../assets/style/loginButton.css'
 
-const LoginButton = ({children}: {children: ReactNode}) => {
+interface LoginButtonType {
+  children: ReactNode,
+  className?: string,
+}
+
+const LoginButton = ({children, className}: LoginButtonType) => {
   return (
     <button className='button'>{children}</button>
   )
