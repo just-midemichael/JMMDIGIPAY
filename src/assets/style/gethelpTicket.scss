@@ -32,10 +32,29 @@ $box-shadow-2: 3px -3px 10px rgba(128, 128, 128, 0.273);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid black;
+    // border: 2px solid black;
     text-align: start;
     width: 100%;
     max-width: 600px;
+}
+.ticket-form input, textarea {
+    border: 1px solid $textColor-2;
+    background-color: white;
+    color: $textColor-2;
+    padding: 10px 20px;
+}
+.ticket-form input:focus-within, textarea:focus-within {
+    color: black;
+}
+.ticket-form input {
+    height: 40px;   
+    outline: none;
+    border-radius: 2px;   
+}
+.ticket-form textarea {
+    outline: none;
+    min-height: 60px;
+    min-width: 100%;
 }
 .button-container {
     display: flex;
