@@ -624,8 +624,7 @@
 }
 .section-3 {
     width: 100%;
-    min-height: 60vh;
-    min-height: 60dvh;
+    min-height: 500px;
     background-color: whitesmoke;
     padding: 5%;
     box-sizing: border-box;
