@@ -37,11 +37,16 @@ $box-shadow-2: 3px -3px 10px rgba(128, 128, 128, 0.273);
     width: 100%;
     max-width: 600px;
 }
+.ticket-form label {
+    font-size: 0.95rem;
+    font-weight: 500;
+}
 .ticket-form input, textarea {
     border: 1px solid $textColor-2;
     background-color: white;
     color: $textColor-2;
     padding: 10px 20px;
+    margin-bottom: 15px;
 }
 .ticket-form input:focus-within, textarea:focus-within {
     color: black;
@@ -58,7 +63,7 @@ $box-shadow-2: 3px -3px 10px rgba(128, 128, 128, 0.273);
 }
 .button-container {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     padding: 10px 0;
 }
 .get-help-ticket-body button {
@@ -71,4 +76,10 @@ $box-shadow-2: 3px -3px 10px rgba(128, 128, 128, 0.273);
     background-color: white !important;
     color: navy;
     border: 1px solid rgba(128, 128, 128, 0.177) !important;
+}
+
+@media (max-width: 350px) {
+    .get-help-ticket-body section {
+        padding: 5% 10px;
+    }
 }
