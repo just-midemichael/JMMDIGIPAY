@@ -104,6 +104,10 @@ header .button:hover {
     box-sizing: border-box;
 }
 
+.contact-email a, .contact-telephone-number a {
+    color: blue;
+}
+
 .image-focal-point {
     display: flex;
     justify-content: center;
@@ -115,7 +119,7 @@ header .button:hover {
     transition: 600ms ease-in-out;
 }
 
-.about-us-body .image-focal-point:hover .hero-image {
+.contact-us-body .image-focal-point:hover .hero-image {
     transition: 600ms ease-in-out;
     transform: rotate(0deg) translateY(0px);
     box-sizing: border-box;

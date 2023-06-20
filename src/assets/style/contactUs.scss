@@ -122,6 +122,9 @@ header .button:hover {
     // border: 2px solid red;
     box-sizing: border-box;
 }
+.contact-email a, .contact-telephone-number a {
+    color: $textColor-8;
+}
 
 
 .image-focal-point {
@@ -133,7 +136,7 @@ header .button:hover {
 .image-focal-point .hero-image {
     transition: 600ms ease-in-out;
 }
-.about-us-body .image-focal-point:hover .hero-image {
+.contact-us-body .image-focal-point:hover .hero-image {
     transition: 600ms ease-in-out;
     transform: rotate(0deg) translateY(0px);
     box-sizing: border-box;
