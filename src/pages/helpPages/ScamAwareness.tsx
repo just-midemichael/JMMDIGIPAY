@@ -125,7 +125,7 @@ const ScamAwareness = () => {
 
         <div className='scam-awareness-container'>
           <article className='features-content-container'>
-            <div className='text-focal-point aos aos-right'>
+            <div className='text-focal-point aos aos-left'>
               <div className='information-title'>Common payment scams</div>
 
               <div className='text-description '>
@@ -166,6 +166,12 @@ const ScamAwareness = () => {
             
           <div className='scam-awareness-container identify-scam-container'>
             <article className='features-content-container'>
+              <div className='image-focal-point aos aos-fade'>
+                <div className='image-container'>
+                  <img className='image ' src='image/scam-image-2.jpg'/>
+                </div>
+              </div>
+
               <div className='text-focal-point aos aos-right'>
                 <div className='information-title'>How to identify a scam</div>
 
@@ -185,11 +191,6 @@ const ScamAwareness = () => {
                 </div>
               </div>
 
-              <div className='image-focal-point aos aos-fade'>
-                  <div className='image-container'>
-                    <img className='image ' src='image/scam-image-2.jpg'/>
-                  </div>
-              </div>
             </article>
           </div>
 
