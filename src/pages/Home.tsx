@@ -1,15 +1,12 @@
 import React, { useState } from 'react'
 import '../assets/style/home.css'
 import LoginButton from '../components/LoginButton'
-import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
   const docTitle = () => {
     document.title = 'JMM DIGI PAY'
   }
   docTitle()
-
-  const navigate = useNavigate()
   
 
   return (
@@ -69,7 +66,7 @@ const Home = () => {
           <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='image/investment.jpg' onClick={() => navigate('/investment')}/>
+                <img className='image ' src='image/investment.jpg' onClick={() => window.location.href='/investment'}/>
               </div>
             </div>
 
@@ -95,7 +92,7 @@ const Home = () => {
 
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='image/saving.jpg' onClick={() => navigate('/saving')}/>
+                <img className='image ' src='image/saving.jpg' onClick={() => window.location.href='/saving'}/>
               </div>  
             </div>
           </article>
@@ -103,7 +100,7 @@ const Home = () => {
           <article className='features-content-container'>
             <div className='image-focal-point aos aos-fade'>
               <div className='image-container'>
-                <img className='image ' src='image/loan.jpg' onClick={() => navigate('/loan')}/>
+                <img className='image ' src='image/loan.jpg' onClick={() => window.location.href='/loan'}/>
               </div>
             </div>
 
