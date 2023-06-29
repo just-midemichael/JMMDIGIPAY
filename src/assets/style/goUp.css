@@ -16,12 +16,12 @@
     width: 42.5px;
     height: 42.5px;
     border-radius: 100%;
-    background-color: navy;
+    background-color: blue;
     z-index: 13;
 }
 
 .go-up:hover {
-    background-color: #040495;
+    background-color: #0808bc;
 }
 
 .go-up a {

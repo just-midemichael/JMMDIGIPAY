@@ -27,14 +27,14 @@
 
 .search-button {
     height: 45px;
-    background-color: navy !important;
+    background-color: blue !important;
     color: white !important;
     border-radius: 0 10px 10px 0 !important;
     font-weight: normal !important;
 }
 
 .search-button:hover {
-    background-color: #020293 !important;
+    background-color: #0808bc !important;
 }
 
 @media (max-width: 750px) {

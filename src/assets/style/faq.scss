@@ -307,11 +307,11 @@ header .button:hover {
     text-align: start;
 }
 .section-2 button {
-    background-color: $bgColor !important;
+    background-color: $textColor-8 !important;
     margin-left: 10px;
 }
 .section-2 button:hover {
-    background-color: $bgColorHover !important;
+    background-color: $textColor-9 !important;
 }
 
 @media (max-width: 1000px) {

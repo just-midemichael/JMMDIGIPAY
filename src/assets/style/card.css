@@ -5,7 +5,7 @@ header {
 }
 
 header .button {
-    background-color: navy !important;
+    background-color: blue !important;
     color: white !important;
 }
 
@@ -384,12 +384,12 @@ header .button:hover {
 }
 
 .section-2 button {
-    background-color: #ae0b57 !important;
+    background-color: blue !important;
     margin-left: 10px;
 }
 
 .section-2 button:hover {
-    background-color: #a20a51 !important;
+    background-color: #0808bc !important;
 }
 
 @media (max-width: 1000px) {

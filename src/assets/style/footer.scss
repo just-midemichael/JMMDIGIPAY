@@ -2,6 +2,7 @@
 $footerColor: rgb(107, 105, 105);
 $linkHoverColor: rgb(12, 161, 203);
 $textColor-8: blue;
+$textColor-9:  rgb(8, 8, 188);
 $footerBgColor: white;
 $logoColor: rgb(174, 11, 87);
 $box-shadow: 0.5px 0.5px 6px rgba(128, 128, 128, 0.177);
@@ -110,7 +111,7 @@ footer {
     text-decoration: none;
     color: inherit;
     font-size: 0.75rem;
-    font-weight: 500;
+    font-weight: 600;
     margin: 5px 0;
     cursor: default;
     text-transform: capitalize;
@@ -120,7 +121,7 @@ footer {
     width: fit-content;
 }
 .box-link:hover {
-    color: $linkHoverColor;
+    color: $textColor-8;
 }
 .box-link:hover .double-right-arrow {
     display: inline;

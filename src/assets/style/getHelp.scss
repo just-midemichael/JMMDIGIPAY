@@ -16,6 +16,30 @@ $box-shadow: 0.5px 0.5px 6px rgba(128, 128, 128, 0.177);
 $box-shadow-1: 1px 1px 6px rgba(128, 128, 128, 0.177);
 $box-shadow-2: 3px -3px 10px rgba(128, 128, 128, 0.273);
 
+
+header {
+    background-color: $textColor-5;
+    color: black;
+    box-shadow: $box-shadow-1;
+}
+
+header .button {
+    background-color: $textColor-8 !important;
+    color: $textColor-5 !important;
+}
+header .button:hover {
+    background-color: $textColor-9 !important;
+}
+
+.logo {
+    color: $textColor-8;
+}
+
+.box {
+    background-color: $textColor-6;
+}
+
+
 .search-nav-container {
     display: flex;
     align-items: center;

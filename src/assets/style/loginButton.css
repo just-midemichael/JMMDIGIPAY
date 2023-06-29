@@ -1,5 +1,5 @@
 button {
-    background-color: navy !important;
+    background-color: blue !important;
     font-weight: 400 !important;
     padding: 10px 20px !important;
     box-sizing: border-box !important;
@@ -11,6 +11,6 @@ button {
 }
 
 button:hover {
-    background-color: #06069a !important;
+    background-color: #0808bc !important;
     border: none !important;
 }

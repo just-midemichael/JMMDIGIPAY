@@ -2,6 +2,7 @@
 $headerBgColor: rgb(21, 21, 21);
 $headerTextColor: white;
 $buttonColor: rgb(9, 178, 225);
+$textColor-5: white;
 $buttonHoverColor: rgb(12, 161, 203);
 $textColor-8: blue;
 $textColor-9:  rgb(8, 8, 188);
@@ -66,9 +67,9 @@ header .nav-sub-link {
     color: black;
 }
 header .button {
-    background-color: navy !important;
-    color: $headerTextColor !important;
     height: 40px !important;
+    background-color: $textColor-8 !important;
+    color: $textColor-5 !important;
 }
 header .button:hover {
     background-color: $textColor-9 !important;

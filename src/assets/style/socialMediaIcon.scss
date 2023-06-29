@@ -1,6 +1,8 @@
 //Color
 $bgColor: rgb(107, 105, 105);
 $bgHoverColor: rgb(12, 161, 203);
+$textColor-8: blue;
+$textColor-9:  rgb(8, 8, 188);
 $textColor: white;
 
 
@@ -31,7 +33,7 @@ $textColor: white;
     font-size: 0.7rem;
 }
 .social-media-icon-wrapper a:hover {
-    background-color: $bgHoverColor;
+    background-color: $textColor-8;
     color: $textColor;
 }
 .social-media-icon {

@@ -23,7 +23,7 @@ header {
     box-shadow: $box-shadow-1;
 }
 header .button {
-    background-color: navy !important;
+    background-color: $textColor-8 !important;
     color: $textColor-5 !important;
 }
 header .button:hover {

@@ -3,6 +3,8 @@ $backgroundColor: rgb(9, 178, 225);
 $bgColorHover: rgb(12, 161, 203);
 $backgroundColor2: navy;
 $bgColorHover2: rgb(4, 4, 149);
+$textColor-8: blue;
+$textColor-9:  rgb(8, 8, 188);
 
 
 
@@ -24,11 +26,11 @@ $bgColorHover2: rgb(4, 4, 149);
     width: 42.5px;
     height: 42.5px;
     border-radius: 100%;
-    background-color: $backgroundColor2;
+    background-color: $textColor-8;
     z-index: 13;
 }
 .go-up:hover {
-    background-color: $bgColorHover2;
+    background-color: $textColor-9;
 }
 .go-up a {
     text-decoration: none;
