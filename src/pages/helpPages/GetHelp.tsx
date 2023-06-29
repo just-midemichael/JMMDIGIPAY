@@ -11,8 +11,8 @@ const GetHelp = () => {
 
     const activeStyle = ({isActive}: {isActive: boolean}) => {
         return {
-            color: isActive? "navy" : "",
-            textDecoration: isActive? "2px underline navy" : "",
+            color: isActive? "blue" : "",
+            textDecoration: isActive? "2px underline blue" : "",
         }
     }
 
