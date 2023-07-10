@@ -125,7 +125,7 @@ const Footer = () => {
 
         
 
-        <a className='footer-developer-link' target='_blank' href='https://olumidemichaelojo.netlify.app/index.html' title='browse developer'>
+        <a className='footer-developer-link' target='_blank' href='' title='browse developer'>
           <pre>Developed by &trade; just_midemichael &copy; 2023</pre>
         </a>
       </div>
